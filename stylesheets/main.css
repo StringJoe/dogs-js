@@ -1,6 +1,6 @@
 
 body {
-    background-color: white;
+    background-color: aliceblue;
 }
 
 header main footer {
@@ -14,14 +14,19 @@ header .container, main .container, footer .container {
 }
 
 header {
-    background-color: aqua;
+    background-color: maroon;
+}
+
+main {
+    background-color: skyblue;
 }
 
 header h1 {
     text-align: center;
-    font-size: 36px;
+    font-size: 40px;
     padding-top: 25px;
     padding-bottom: 25px;
+    color: white;
 }
 
 .text-content h2 {
@@ -40,9 +45,35 @@ header h1 {
     padding-bottom: 20px;
 }
 
-.text-content hr {
+hr {
     width: 100%; 
     border-color: black; 
     background: black;
     height: 2px;
+}
+
+.project1 {
+    float: left;
+    margin-top: 50px;
+    margin-left: 350px;
+    padding-bottom: 25px;
+}
+
+.project1 p {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.project2 {
+    float: right;
+    margin-top: 50px;
+    margin-right: 350px;
+    padding-bottom: 25px;
+}
+
+.project2 p {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 20px;
 }
