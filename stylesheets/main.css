@@ -23,3 +23,26 @@ header h1 {
     padding-top: 25px;
     padding-bottom: 25px;
 }
+
+.text-content h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.text-content p {
+    width: 600px;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 20px;
+    line-height: 1.3;
+    padding-bottom: 20px;
+}
+
+.text-content hr {
+    width: 100%; 
+    border-color: black; 
+    background: black;
+    height: 2px;
+}
