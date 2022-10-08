@@ -1,0 +1,25 @@
+
+body {
+    background-color: white;
+}
+
+header main footer {
+    min-width: 100%;
+}
+
+header .container, main .container, footer .container {
+    /* was originally 555 px */
+    max-width: 100%;
+    margin: auto;
+}
+
+header {
+    background-color: aqua;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 36px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
