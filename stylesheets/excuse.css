@@ -1,50 +1,60 @@
 body {
-    margin: 0;
-    font-family: sans-serif;
+    background-color: beige;
 }
 
-.app {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+header main footer {
+    min-width: 855px;
 }
 
-.header {
+header .container, main .container, footer .container {
+    /* was originally 555 px */
+    max-width: 855px;
+    margin: auto;
+}
+
+header h1 {
     text-align: center;
-    padding: 20px 0;
+    font-size: 40px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: black;
 }
 
-.header h1 {
-    margin: 0 0 10px 0;
+header p {
+    line-height: 1.3;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
 }
 
-.header select {
-    font-size: 1rem;
+.align-elements {
+    text-align: center;
+}
+main h2 {
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: bold;
+    padding-bottom: 25px;
 }
 
-.slideshow {
-    flex: 1;
-    background-color: #333;
-    position: relative;
-    overflow: hidden;
+#category {
+    margin-top: 50px;
 }
 
-.slide {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;
-    opacity: 0;
-    transform: scale(1);
-    transition: all .9s ease-out;
+#new-excuse {
+    margin-top: 15px;
+    padding-bottom: 10px;
 }
 
-.slide:nth-last-child(2) {
-    opacity: 1;
-    transform: scale(1.08);
+.specific-excuse {
+    margin-top: 35px;
+}
+
+.align-buttons {
+    display: inline;
+    margin-left: 25px;
+}
+
+#new-specific-excuse {
+    margin-top: 25px;
 }
